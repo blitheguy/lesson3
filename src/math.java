@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class math {
     public static void main(String[] args) {
         int a,b;
@@ -19,6 +21,13 @@ public class math {
         System.out.println("division="+div);
         System.out.println("reminder="+rem);
         System.out.println("increment="+a);
-
+        a--;
+        System.out.println("decrement="+a);
+        Scanner scan=new Scanner(System.in);
+        System.out.println("input number1");
+        long n1=scan.nextLong();
+        System.out.println("input number2");
+        long n2=scan.nextLong();
+        System.out.println("Sum="+(n1+n2));
     }
 }
