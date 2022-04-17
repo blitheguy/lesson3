@@ -29,5 +29,13 @@ public class math {
         System.out.println("input number2");
         long n2=scan.nextLong();
         System.out.println("Sum="+(n1+n2));
+        //урок №5 логические операторы if/else if
+        System.out.println("Введите первое число для сравниения");
+        long n3=scan.nextLong();
+        System.out.println("Введите второе число для сравниения");
+        long n4=scan.nextLong();
+        if (n3>n4) System.out.println("Первое число больше");
+        else if (n3<n4) System.out.println("Второе число больше первого");
+        else System.out.println("Числа равны");
     }
 }
