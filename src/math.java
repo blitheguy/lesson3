@@ -37,5 +37,8 @@ public class math {
         if (n3>n4) System.out.println("Первое число больше");
         else if (n3<n4) System.out.println("Второе число больше первого");
         else System.out.println("Числа равны");
+        //задача по таблице истинности
+        if (n3>n4 || n1==n2) System.out.println("числа введены правильно");
+
     }
 }
